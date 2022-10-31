@@ -3,6 +3,8 @@ name: Build MT7628
 on: 
   release:
     types: [published]
+  repository_dispatch:
+  workflow_dispatch:
 #  push:
 #    tags:
 #    - 'v*'
